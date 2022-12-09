@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints 0-9'$'
+ * main - prints 1-9'$'
  *
  * Returns: Always 0 (Success)
  *
