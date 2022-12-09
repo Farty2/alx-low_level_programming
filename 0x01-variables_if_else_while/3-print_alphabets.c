@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - main funtion prints the alphabet in lowercase and then in uppercase
+ * main - main function that returns alphabet in both lowercase and uppercase
  *
  * Return: Always 0 (Success)
  *
@@ -10,12 +10,20 @@
 
 int main(void)
 {
-	char az;
+	int ch = 'a';
+	int CH = 'A';
 
-	for (az = 'a'; az <= 'z'; az++)
-		putchar(az);
-	for (az = 'A', az <= 'Z'; az++;)
-		putchar(az);
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		CH++;
+	}
+
 	putchar('\n');
 	return (0);
 }
