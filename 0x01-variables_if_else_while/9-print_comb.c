@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - returns possible combination of single-digit numbers from 0 to 9 seperated by comma and followed by space
+ * main - prints 0-9'$'
  *
  * Returns: Always 0 (Success)
  *
