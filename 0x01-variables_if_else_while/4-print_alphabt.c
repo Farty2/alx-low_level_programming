@@ -2,14 +2,13 @@
 #include <stdlib.h>
 
 /**
- * main - all lowercase alphabets except q and e
+ * main - returns alphabets both except e and q
  *
  * Returns: Always 0 (Success)
  *
  */
 
 int main(void)
-
 {
 	char ch = 'a';
 
