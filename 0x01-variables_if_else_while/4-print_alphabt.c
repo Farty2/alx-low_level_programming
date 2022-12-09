@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - main function that prints alphabet in lowercase esxept q and e
+ * main - main function returns alphabet in lowercase esxept q and e
  *
  * Returns: Always 0 (Success)
  *
