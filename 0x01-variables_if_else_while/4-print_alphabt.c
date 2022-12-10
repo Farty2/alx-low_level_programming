@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - all lower case alphabets without e and q.
+ * main - returns alphabets both except e and q
  *
  * Returns: Always 0 (Success)
- *
  */
 
 int main(void)
+
 {
-	int ch = 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
