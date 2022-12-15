@@ -1,11 +1,11 @@
-#include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 
 /**
- * ptinr_triangle - create triangle with #
+ * print_triangle- prints a triangle with #
  * @size: parameter
- * Return: 0
+ * Return: void
  */
 
 void print_triangle(int size)
@@ -19,20 +19,14 @@ void print_triangle(int size)
 			for (j = 0; j < size; j++)
 			{
 				if (j < n)
-				{
 					_putchar(' ');
-				}
 				else
-				{
 					_putchar('#');
-				}
 			}
 			n--;
 			_putchar('\n');
 		}
 	}
 	else
-	{
 		_putchar('\n');
-	}
 }
