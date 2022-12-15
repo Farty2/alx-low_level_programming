@@ -1,8 +1,10 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * ptinr_triangle - create triangle
- * @size: params
+ * ptinr_triangle - create triangle with #
+ * @size: parameter
  * Return: 0
  */
 
