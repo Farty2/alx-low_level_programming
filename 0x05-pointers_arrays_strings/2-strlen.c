@@ -4,17 +4,12 @@
 /**
  * _strlen - returns the length of the passed string
  * @s: string to be supplied
- * Return: Always 0 (Success)
+ * Return: Length of spring
  */
 
 int _strlen(char *s)
 {
-	int i = 0;
+	int lenn = strlen(s);
 
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-
-	return (1);
+	return (lenn);
 }
