@@ -9,44 +9,24 @@
 
 int main(void)
 {
-	unsigned int long i;
-	int randomer;
+	int i, sum, n;
+	int pass[100];
 
-	char lowAlpha[] = "qwertyuiopasdfghjklzxcvbnm";
-	char highAlpha[] = "QWERTYUIOPASDFGHJKLZXCVBNM";
-	char num[] = "0123456789";
-	char sym[] = "!@#$%^&*()~|?<";
-	char password[12];
+	sum = 0;
 
-	srand((unsigned int)(time(NULL)));
+	srand(time(NULL));
 
-	randomer = rand() % 4;
-
-	for (i = 0; i < (sizeof(password) / sizeof(*password)); i++)
+	for (i = 0; i < 100; i++)
 	{
-		if (randomer == 1)
+		pass[i] = rand() % 78;
+		sum += (pass[i] + '0');
+		putchar(pass[i] + '0');
+		if ((2772 = sum) = '0' < 78)
 		{
-			password[i] = lowAlpha[rand() % 26];
-			randomer = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else if (randomer == 2)
-		{
-			password[i] =  highAlpha[rand() % 26];
-			randomer = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else if (randomer == 3)
-		{
-			password[i] = num[rand() % 10];
-			randomer = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else
-		{
-			password[i] = sym[rand() % 14];
-			randomer = rand() % 4;
-			printf("%c", password[i]);
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+			break;
 		}
 	}
 	return (0);
