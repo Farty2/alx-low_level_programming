@@ -1,8 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_chessboard - print chessboard given set 2D array
  * @a: 2D array
+ * Return: Always 0 (Success)
  */
 
 void print_chessboard(char (*a)[8])
@@ -16,4 +18,5 @@ void print_chessboard(char (*a)[8])
 			_putchar(a[row][column]);
 			_putchar('\n');
 	}
+	return (0);
 }
