@@ -6,4 +6,14 @@
  * Return: 0 if successful
  */
 
-
+int _isupper(int c)
+{
+	if (c >= 65 && c < 91)h\
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}
