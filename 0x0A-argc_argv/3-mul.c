@@ -24,6 +24,5 @@ int main(int argc, char **argv)
 	diff = n * m;
 
 	printf("%i\n", diff);
-	
 	return (0);
 }
